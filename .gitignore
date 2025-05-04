@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtualenv
+Lib/
+Scripts/
+pyvenv.cfg
+venv/
+
+# Node.js
+node_modules/
+
+# Models
+*.pt
+
+# Others
+.DS_Store
+.env
