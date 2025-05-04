@@ -23,7 +23,11 @@
       <div
         class="relative z-10 px-6 py-20 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10"
       >
-        <div class="md:w-3/5 text-center md:text-left" data-aos="fade-up">
+        <div
+          class="md:w-3/5 text-center md:text-left"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <h1 class="text-4xl md:text-5xl font-bold mb-6">Mask Detection</h1>
           <p class="text-base md:text-lg leading-relaxed">
             Website deteksi masker ini bekerja dengan cara mengakses kamera
@@ -37,6 +41,7 @@
         <div
           class="md:w-2/5 flex justify-center md:justify-end"
           data-aos="fade-left"
+          data-aos-duration="2000"
         >
           <img
             src="{{ url_for('static', filename='img/dokter.png') }}"
